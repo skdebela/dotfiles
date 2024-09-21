@@ -14,6 +14,10 @@ set nocompatible
 " Turn on syntax highlighting.
 syntax on
 
+" Indentation
+filetype plugin indent on
+set autoindent
+
 " Disable the default Vim startup message.
 set shortmess+=I
 
