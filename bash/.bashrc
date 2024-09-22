@@ -8,11 +8,10 @@
 # Bash Prompt
 PS1='[\u@\h \W]\$ '
 
-# ALIASES
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias devt='cd ~/Documents/devt'
-alias pomello=/home/skdebela/Downloads/Pomello-0.10.17.AppImage
+# Aliases
+if [ -f ~/.shell/aliases.sh ]; then
+	source ~/.shell/aliases.sh
+fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
