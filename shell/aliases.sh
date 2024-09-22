@@ -13,7 +13,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 # cd to git root directory
-alias cdgr='cd "$(git root)"'
+alias cdgr='cd "$(git rev-parse --show-toplevel)"'
 
 # Create a directory and cd into it
 mcd() {
