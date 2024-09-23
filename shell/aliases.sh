@@ -26,8 +26,9 @@ jump() {
 }
 
 
-# Jump to devt directory
+# Jump to directory
 alias devt='cd ~/Documents/devt'
+alias courses='cd /run/media/skdebela/A4929F12929EE7D6/Users/ASUS/Documents/courses/'
 
 # Open .AppImage applications like package
 alias pomello='~/Downloads/Pomello-0.10.17.AppImage'
