@@ -42,6 +42,9 @@ set noerrorbells visualbell t_vb=
 " Enable mouse support
 set mouse+=a
 
+" toggle relative numbering
+nnoremap <C-n> : set rnu!<CR>
+
 " prevent bad habit of using the arrow keys for movement
 " in normal mode
 nnoremap <Left>  :echoe "Use h"<CR>
