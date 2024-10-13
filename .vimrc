@@ -19,7 +19,7 @@ set laststatus=2 " Always show the status line at the bottom
 set backspace=indent,eol,start " allow backspacing over everything
 set hidden " allow auto-hiding of edited buffers
 set incsearch " increamental search (as string is being typed)
-set hls " highlight search
+" set hls " highlight search
 " smart case-sensitive search
 set ignorecase
 set smartcase
@@ -40,7 +40,7 @@ nmap Q <Nop>
 set noerrorbells visualbell t_vb=
 
 " Enable mouse support
-set mouse+=a
+" set mouse+=a
 
 " toggle relative numbering
 nnoremap <C-n> : set rnu!<CR>
