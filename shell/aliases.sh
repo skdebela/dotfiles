@@ -33,3 +33,6 @@ alias up='cd ..'
 
 # Open .AppImage applications like package
 alias pomello='~/Downloads/Pomello-0.10.17.AppImage'
+
+# Git aliases
+alias gs='git status'
