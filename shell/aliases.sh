@@ -31,8 +31,10 @@ alias devt='cd ~/Documents/devt'
 alias courses='cd /run/media/skdebela/A4929F12929EE7D6/Users/ASUS/Documents/courses/'
 alias up='cd ..'
 
-# Open .AppImage applications like package
-alias pomello='~/Downloads/Pomello-0.10.17.AppImage'
+# Local aliases
+if [ -f ~/.shell/local_aliases.sh ]; then
+    source ~/.shell/local_aliases.sh
+fi
 
 # Git aliases
 alias gs='git status'
