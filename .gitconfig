@@ -10,3 +10,6 @@
 [credential]
 	helper = manager-core
 	credentialStore = secretservice
+
+[push]
+    default=

@@ -19,3 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Starship Bash Prompt
 eval "$(starship init bash)"
+
+# enable vim mode
+set -o vi
