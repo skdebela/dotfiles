@@ -40,7 +40,7 @@ nmap Q <Nop>
 set noerrorbells visualbell t_vb=
 
 " Enable mouse support
-set mouse+=a
+" set mouse+=a
 
 " toggle relative numbering
 nnoremap <C-n> : set rnu!<CR>
