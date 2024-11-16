@@ -17,7 +17,7 @@ alias cdgr='cd "$(git rev-parse --show-toplevel)"'
 
 # Create a directory and cd into it
 mcd() {
-	mkdir "${1}" && cd "${1}"
+	mkdir -p "${1}" && cd "${1}"
 }
 
 # Jump to directory containing file
