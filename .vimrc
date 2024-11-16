@@ -23,11 +23,16 @@ set incsearch " increamental search (as string is being typed)
 " smart case-sensitive search
 set ignorecase
 set smartcase
+
+" Tab configuration
 " use 4 spaces instead of tabs during formatting
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+" use tab for makefile
+autocmd FileType make setlocal noexpandtab tabstop=8 shiftwidth=8 softtabstop=8
+
 
 " --------------------
 "  Misc configurations
