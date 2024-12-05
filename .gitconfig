@@ -16,3 +16,10 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    unstage = reset HEAD --

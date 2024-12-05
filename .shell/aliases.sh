@@ -62,6 +62,3 @@ alias up='cd ..'
 if [ -f ~/.shell/local_aliases.sh ]; then
     source ~/.shell/local_aliases.sh
 fi
-
-# Git aliases
-alias gs='git status'
