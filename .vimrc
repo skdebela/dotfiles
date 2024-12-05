@@ -40,6 +40,7 @@ autocmd FileType make setlocal noexpandtab tabstop=8 shiftwidth=8 softtabstop=8
 
 " Unbind key bindings
 nmap Q <Nop>
+nmap q <Nop>
 
 " Disable audible bell
 set noerrorbells visualbell t_vb=
