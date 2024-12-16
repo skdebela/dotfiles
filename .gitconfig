@@ -20,7 +20,7 @@
     bd = branch -d
     ca = commit --amend
     cb = checkout -b
-    ci = commit -a -v
+    ci = commit -v
     cm = commit -a --amend -C HEAD
     co = checkout
     di = diff
