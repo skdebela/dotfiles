@@ -26,11 +26,6 @@ jump() {
 }
 
 
-# Jump to directory
-alias devt='cd ~/Documents/devt'
-alias courses='cd /run/media/skdebela/A4929F12929EE7D6/Users/ASUS/Documents/courses/'
-alias up='cd ..'
-
 # Local aliases
 if [ -f ~/.shell/local_aliases.sh ]; then
     source ~/.shell/local_aliases.sh
