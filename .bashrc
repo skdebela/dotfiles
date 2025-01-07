@@ -22,3 +22,9 @@ eval "$(starship init bash)"
 
 # enable vim mode
 set -o vi
+
+# cavenv
+if [ -f /home/sam/.local/bin/cavenv ]; then
+	source /home/sam/.local/bin/cavenv
+fi
+
